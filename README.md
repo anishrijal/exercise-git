@@ -31,7 +31,6 @@ and other version control tasks
 GitHub is a Git repository hosting service where there are many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.
 
 #### 3 Describe the command that were used on Try Git tutorial.
-Command used in try Git:
 1. git status -s
 2. git init (initialize empty git repository)
 3. git commit -m (description for the change)
