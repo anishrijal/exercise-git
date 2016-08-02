@@ -24,11 +24,41 @@ readme.md file, click the edit icon and start answering the questions.
 
 #### 1 What is Git?
 
+Git is the most widely used version control system which is used for software development 
+and other version control tasks
+
 #### 2 What is Github?
+GitHub is a Git repository hosting service where there are many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.
 
 #### 3 Describe the command that were used on Try Git tutorial.
+Command used in try Git:
+git status -s
+git init (initialize empty git repository)
+git commit -m (description for the change)
+git add '*.txt' (wild card to add)
+git log (for changes committed)
+git remote add origin http://,,,,,../ (to push our local rep to github server)
+git push u origin master (tells git where to put our commits when ready, 
+                -u tell git to remember the procedure so we can it next time)
+git pull origin master (to pull changes)
+git diff head(to see what has been changed) 
+git diff --staged (to see changes you just staged)
+git reset 
+git branch branchname(to add a new branch for changed)
+git checkout branchname(to switch branches)
+git merge branchname (to merge all change made)
+git branch -d branchname (to delete branch)
 
 #### 4 What are the main advantages?
+work offline
+fast to work with
+repositories are smaller
+moving or adding files
+ignore certain files
+branches
+check the status of changes
+stash branches
+
 
 ##Exercise
 
