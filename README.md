@@ -32,32 +32,31 @@ GitHub is a Git repository hosting service where there are many of its own featu
 
 #### 3 Describe the command that were used on Try Git tutorial.
 Command used in try Git:
-git status -s
-git init (initialize empty git repository)
-git commit -m (description for the change)
-git add '*.txt' (wild card to add)
-git log (for changes committed)
-git remote add origin http://,,,,,../ (to push our local rep to github server)
-git push u origin master (tells git where to put our commits when ready, 
-                -u tell git to remember the procedure so we can it next time)
-git pull origin master (to pull changes)
-git diff head(to see what has been changed) 
-git diff --staged (to see changes you just staged)
-git reset 
-git branch branchname(to add a new branch for changed)
-git checkout branchname(to switch branches)
-git merge branchname (to merge all change made)
-git branch -d branchname (to delete branch)
+1. git status -s
+2. git init (initialize empty git repository)
+3. git commit -m (description for the change)
+4. git add '*.txt' (wild card to add)
+5. git log (for changes committed)
+6. git remote add origin http://,,,,,../ (to push our local rep to github server)
+7. git push u origin master (tells git where to put our commits when ready,-u tell git to remember the procedure so we can it next time)
+8. git pull origin master (to pull changes)
+9. git diff head(to see what has been changed) 
+10. git diff --staged (to see changes you just staged)
+11. git reset 
+12. git branch branchname(to add a new branch for changed)
+13. git checkout branchname(to switch branches)
+14. git merge branchname (to merge all change made)
+15. git branch -d branchname (to delete branch)
 
 #### 4 What are the main advantages?
-work offline
-fast to work with
-repositories are smaller
-moving or adding files
-ignore certain files
-branches
-check the status of changes
-stash branches
+1. work offline
+2. fast to work with
+3. repositories are smaller
+4. moving or adding files
+5. ignore certain files
+6. branches
+7. check the status of changes
+8. stash branches
 
 
 ##Exercise
